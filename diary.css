@@ -7,6 +7,18 @@ ul, ol {
   まとめて書くこともできますね。*/
   /*背景色などのCSSは省略*/
 }
+body {
+    background: #808080;
+    font-family: Meiryo;
+}
+div {
+  background: #ffff00;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  margin: 30px auto;
+}
 /* タイプセレクタ。pタグ全てに適用される */
 p {
   color : brown;
