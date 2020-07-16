@@ -46,14 +46,6 @@ ul, ol {
   まとめて書くこともできますね。*/
   /*背景色などのCSSは省略*/
 }
-div {
-  background: #ffff00;
-  width: 300px;
-  padding: 10px;
-  text-align: center;
-  border: 3px solid #d3d3d3;
-  margin: 30px auto;
-}
 /* タイプセレクタ。pタグ全てに適用される */
 p {
   color : brown;
