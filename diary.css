@@ -1,25 +1,21 @@
 body {
-    background: #808080;
+    background: #333333;
     font-family: Meiryo;
-}
+    }
 h1{
   ine-height: 160%;
   font-size: 160%;
-  color: #ffff00;
-  border: 3px solid #c0c0c0;
-  background-color: #d3d3d3;
+  color: #E9FFA5;
+  border: 10px solid #777777;
+  background-color: #999999;
   font-weight: 900;
   text-align: center;
   margin: auto;
   padding: auto;
 }
 h2{
-  ine-height: 130%;
-  font-size: 130%;
-  font-size:100%;
-  color: #ffff00;
-  border: 3px solid #c0c0c0;
-  background-color: #d3d3d3;
+  font-size:130%;
+  color: white;
   font-weight: 600;
   text-align: center;
   margin: auto;
@@ -29,10 +25,8 @@ h3{
   ine-height: 100%;
   font-size: 100%;
   font-size:100%;
-  color: #ffff00;
-  border: 3px solid #c0c0c0;
-  background-color: #d3d3d3;
-  font-weight: 300;
+  color: white;
+    font-weight: 300;
   text-align: center;
   margin: auto;
   padding: auto;
@@ -48,7 +42,7 @@ ul, ol {
 }
 /* タイプセレクタ。pタグ全てに適用される */
 p {
-  color : #ffff00;
+  color : white;
 }
 
 /* idセレクタ。指定idを持つタグに適用される */
