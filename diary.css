@@ -1,13 +1,29 @@
 body {
-    background: #99999;
+    background: #dbdbd7;
     font-family: Meiryo;
     color: #000000;
     }
+.border{
+	border: solid 5px #000;    	/* 内側の線になる5pxの線をひく */
+	margin: 2px;            	/* 外側の線の場所を確保する */
+	position: relative;        	/* 外側の線の場所を調整する時の基準点になるようにする    */
+	border-radius: 5px;        /* 要素の角を丸くする */
+}
+.border::before {
+	content: '';            		/* 擬似要素に実体を持たせる */
+	width: calc(100% + 12px);    	/* 外側の線になる要素の幅を指定する */
+	height: calc(100% + 12px);		/* 外側の線になる要素の高さを指定する */
+	border: solid 5px ;        		/* 外側の線になる一本線の枠線をひく*/
+	position: absolute;        		/* 外側の線の位置を自由に動かせるようにする */
+	top: -7px;            			/* 外側の線の位置を、内側の線から上に7pxずらす */
+	left: -7px;            			/* 外側の線の位置を、内側の線から左に7pxずらす */
+	border-radius: 5px;        	/* 要素の角を丸くする */
+}
 h1{
   ine-height: 160%;
   font-size: 160%;
   color: #000000;
-  border: 15px solid #777777;
+  border: 15px solid #87877e;
   border: 15px solid #333333;
   background-color: #f1fc51;
   font-weight: 900;
