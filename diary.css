@@ -1,14 +1,14 @@
 body {
-    background: #333333;
+    background: #99999;
     font-family: Meiryo;
-    color: white;
+    color: #000000;
     }
 h1{
   ine-height: 160%;
   font-size: 160%;
-  color: #f1fc51;
-  border: 10px solid #777777;
-  background-color: #999999;
+  color: #000000;
+  border: 20px solid #777777;
+  background-color: #f1fc51;
   font-weight: 900;
   text-align: center;
   margin: auto;
