@@ -52,3 +52,6 @@ p {
   background-color : green;
   color : #fff;  /* 白 */
 }
+.textdecoration_linethrough{
+    text-decoration: line-through;
+}
