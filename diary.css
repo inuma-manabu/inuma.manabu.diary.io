@@ -7,7 +7,8 @@ h1{
   ine-height: 160%;
   font-size: 160%;
   color: #000000;
-  border: 20px solid #777777;
+  border: 15px solid #777777;
+  border: 15px solid #333333;
   background-color: #f1fc51;
   font-weight: 900;
   text-align: center;
@@ -16,14 +17,14 @@ h1{
 }
 h2{
   font-size:130%;
-  color: white;
+  color: #000000;
   font-weight: 600;
 }
 h3{
   ine-height: 100%;
   font-size: 100%;
   font-size:100%;
-  color: white;
+  color: #000000;
   font-weight: 300;
 }
 ul, ol {
@@ -37,7 +38,7 @@ ul, ol {
 }
 /* タイプセレクタ。pタグ全てに適用される */
 p {
-  color : white;
+  color : #000000;
 }
 
 /* idセレクタ。指定idを持つタグに適用される */
