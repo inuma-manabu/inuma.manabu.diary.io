@@ -44,59 +44,67 @@ a:hover{
   margin-right: auto;
   margin-left: auto;
 }
-/*
-    アイコンの背景色が変わる
-*/
-.pattern-03 .icon-wrap {
-    display: block;
-    color: black;
+
+/* ボタン全体 */
+.flowbtn10{
+display:inline-block;	
+font-size:35px;
+text-decoration:none;
+transition:.5s;
+color:#444;	
 }
- 
-.pattern-03 .icon-wrap.icon-wrap-instagram {
-    /* Instagramのアイコンは縦に長い(= 正方形ではない)ので左右のpaddingを少し多めにとる */
-    padding: 7px 9.125px;
+/* インスタ・pocket・ラインだけ少し大きく */
+.flowbtn10 .fa-instagram,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-line{
+font-size:38px;
 }
- 
-.pattern-03 .icon-wrap.icon-wrap-facebook,
-.pattern-03 .icon-wrap.icon-wrap-twitter {
-    /* facebookとTwitterのアイコンは正方形なので、上下左右のpaddingの値は同じ */
-    padding: 7px;
+/* Twitterマウスホバー時 */
+.flowbtn10 .fa-twitter:hover{
+color:#55acee;
 }
- 
-.pattern-03 .icon-wrap.icon-wrap-line {
-    /* LINEのアイコンは縦に長い(= 正方形ではない)ので左右のpaddingを少し多めにとる */
-    padding: 7px 10px;
+/* Instagramマウスホバー時 */
+.flowbtn10 .fa-instagram:hover{
+color:#c6529a;
 }
- 
-.pattern-03 .icon-wrap:hover {
-    color: white;
+/* Facebookマウスホバー時 */
+.flowbtn10 .fa-facebook-f:hover{
+color:#3b5998;
 }
- 
-.pattern-03.square .icon-wrap:hover {
-    border-radius: 25%; /* 正方形 */
+/* Feedlyマウスホバー時 */
+.flowbtn10 .fa-rss:hover{
+color:#6cc655;
 }
- 
-.pattern-03.circle .icon-wrap:hover {
-    border-radius: 50%; /* 円 */
+/* Pocketマウスホバー時 */
+.flowbtn10 .fa-get-pocket:hover{
+color:#ef3f56;
 }
- 
-.pattern-03 .icon-wrap:hover.icon-wrap-instagram {
-    /* 【参考】 https://bungujoshi.com/ */
-    background: -webkit-radial-gradient(32% 106%, circle cover, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), -webkit-linear-gradient(-45deg, #234bd7 12%, #c33cbe 58%);
-    background: -moz-radial-gradient(32% 106%, circle cover, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), -moz-linear-gradient(-45deg, #234bd7 12%, #c33cbe 58%);
-    background: -ms-radial-gradient(32% 106%, circle cover, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), -ms-linear-gradient(-45deg, #234bd7 12%, #c33cbe 58%);
-    background: -o-radial-gradient(32% 106%, circle cover, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), -o-linear-gradient(-45deg, #234bd7 12%, #c33cbe 58%);
-    background: radial-gradient(circle farthest-corner at 32% 106%, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), linear-gradient(135deg, #234bd7 12%, #c33cbe 58%);
+/* はてブマウスホバー時 */
+.flowbtn10 .fa-bold:hover{
+color:#1ba5dc;	
 }
- 
-.pattern-03 .icon-wrap:hover.icon-wrap-facebook {
-    background-color: #1877f2;
+/* YouTubeマウスホバー時 */
+.flowbtn10 .fa-youtube:hover{
+color:#fc0d1c;
 }
- 
-.pattern-03 .icon-wrap:hover.icon-wrap-twitter {
-    background-color: #1da1f2;
+/* LINEマウスホバー時 */
+.flowbtn10 .fa-line:hover{
+color:#00c300;
 }
- 
-.pattern-03 .icon-wrap:hover.icon-wrap-line {
-    background-color: #00B900;
+/* メールアイコンマウスホバー時 */
+.flowbtn10 .fa-envelope:hover{
+color:#f3981d;		
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+padding:0!important;
+}
+/* アイコン全体の位置 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-between;	
+}
+/* アイコン同士の余白 */
+.snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
 }
