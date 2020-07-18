@@ -64,3 +64,23 @@ a:hover{
   color : #adadac;
   font-weight: bold;
 }
+.parent{
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+.inner{
+   display:inline-block;
+   padding:10px;
+   border: 1px dashed #ccc;
+}
+.tablecell{
+  border: 1px solid #aaa;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+}
