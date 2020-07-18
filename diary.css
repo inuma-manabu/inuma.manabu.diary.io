@@ -179,6 +179,7 @@ text-decoration:none;
 /* ulタグの内側余白を０にする */
 ul.snsbtniti{
 padding:0!important;
+list-style-type:none!important;
 }
 /* ボタン全体の位置調整 */
 .snsbtniti{
