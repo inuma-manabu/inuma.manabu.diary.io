@@ -87,3 +87,112 @@ a:hover{
   font-size: 35px;/*アイコンサイズ*/
   line-height: 50px;/*高さと合わせる*/
 }
+
+/* ボタン全体 */
+.flowbtn6{
+border-radius:13px;		
+position:relative;
+display:inline-block;
+width:50px;
+height:50px;
+font-size:33px;
+color:#fff!important;
+transition:.5s;
+text-decoration:none;
+}	
+/* アイコンをど真ん中に*/
+.flowbtn6 i{
+position:absolute;
+top:50%;
+left:50%;
+-ms-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%);
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+padding:0!important;
+}
+/* アイコンボタン全体の位置 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+}
+/* アイコンボタン同士の余白 */
+.snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
+}
+/* アイコンボタンにマウスを乗せた時 */
+.flowbtn6:hover{
+-webkit-transform:translateY(-5px);
+-ms-transform:translateY(-5px);
+transform:translateY(-5px);
+}
+/* Twitter */
+.fl_tw1{
+background:#55acee;
+}
+/* Instagramアイコン位置 */
+.insta_btn6 .fa-instagram{
+font-size:40px;
+}
+/* Instagram紫グラデ背景 */
+.insta_btn6 {
+background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+overflow:hidden;	
+}
+/* Instagramオレンジグラデ背景 */
+.insta_btn6:before{
+content: '';
+position: absolute;
+top:27px;
+left:-12px;
+width:59px;
+height:40px;
+background:-webkit-radial-gradient(#ffdb2c 7%, rgba(255, 105, 34, 0.3) 60%, rgba(255, 88, 96, 0) 70%);
+background:radial-gradient(#ffdb2c 7%, rgba(255, 105, 34, 0.3) 60%, rgba(255, 88, 96, 0) 70%);
+}
+/* Facebookアイコン位置 */
+.fl_fb6 .fa-facebook-f{
+position:relative;
+top:23px;
+left:17px;
+font-size:43px;
+}
+/* Facebookアイコン背景*/
+.fl_fb6{
+background:-webkit-linear-gradient(top, #5c80c6 0%, #34528c 74%);	
+background:linear-gradient(to bottom, #5c80c6 0%, #34528c 74%);	
+}
+/* Feedly */
+.fl_fd6{
+background:#33b151;		
+}
+/* Pocket */
+.fl_pk6{
+color:#ef3f56!important;	
+box-shadow:0 0 2px #888;
+font-size:35px;		
+}
+/* はてブ */
+.fl_hb6 {
+background:-webkit-linear-gradient(top, #1fbccd 0%, #1c91d4 84%);	
+background:linear-gradient(to bottom, #1fbccd 0%, #1c91d4 84%);		
+font-size:25px;	
+}
+/* YouTube */
+.fl_yu6 {
+color:#fc0d1c!important;
+box-shadow:0 0 2px #888;	
+}
+/* LINE@ */
+.fl_li6{
+background:#00c300;			
+}
+/* メール */
+.fl_ma6{
+background:linear-gradient(135deg, #1B77F1 0%,#19BDFC 100%);	
+}
