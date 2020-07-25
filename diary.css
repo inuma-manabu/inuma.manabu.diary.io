@@ -44,7 +44,9 @@ a:hover{
   margin-right: auto;
   margin-left: auto;
 }
-
+.mgr-10{
+    margin-right : 10px;
+}
 /* ボタン全体 */
 .flowbtn10{
 display:inline-block;	
