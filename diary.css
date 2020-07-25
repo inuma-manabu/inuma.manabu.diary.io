@@ -53,11 +53,11 @@ display:inline-block;
 font-size:35px;
 text-decoration:none;
 transition:.5s;
-color:#444;	
+color:#333333;	
 }
-/* インスタ・pocket・ラインだけ少し大きく */
+/* インスタ・pocket・ラインだけ少し大きくしない */
 .flowbtn10 .fa-instagram,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-line{
-font-size:38px;
+font-size:35px;
 }
 /* Twitterマウスホバー時 */
 .flowbtn10 .fa-twitter:hover{
