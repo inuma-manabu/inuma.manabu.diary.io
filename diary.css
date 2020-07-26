@@ -1,8 +1,33 @@
 body {
-    /*background: #fafaf7;*/
-    font-family: Meiryo;
+　　font-family: "Helvetica Neue",
+    "Arial",
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    "Meiryo", sans-serif;
+   margin: 30px;
+   background-color: #f4f5f0;
+   letter-spacing: 0.2em;
     color: #000000;
-    }
+}
+header {
+   padding: 20px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+}
+
+div#body-bk{
+    padding:80px 0 80px 0;    /* 上下に160pxを余白を取る */
+}
+ 
+div#body{
+    width:960px;
+    margin:auto;
+}
+
 h1{
   ine-height: 160%;
   font-size: 160%;
