@@ -47,6 +47,11 @@ a:hover{
 .mgr-10{
     margin-right : 10px;
 }
+
+.textdecoration_linethrough{
+    text-decoration: line-through;
+}
+
 /* ボタン全体 */
 .flowbtn10{
 display:inline-block;	
