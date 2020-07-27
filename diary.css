@@ -7,7 +7,7 @@ body {
    margin: 30px;
    background-color: #f4f5f0;
    letter-spacing: 0.2em;
-    color: #000000;
+   color: #000000;
 }
 header {
    box-sizing: border-box;
@@ -25,6 +25,7 @@ div#body{
 }
 
 h1{
+  box-sizing: border-box;
   ine-height: 160%;
   font-size: 160%;
   color: #e2ff3d;
@@ -35,7 +36,7 @@ h1{
   font-weight: 900;
   text-align: center;
   margin: auto;
-  padding: auto;
+  /*padding: auto;*/
 }
 h2{
   font-size:130%;
