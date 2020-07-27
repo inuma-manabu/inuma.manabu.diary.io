@@ -23,7 +23,12 @@ div#body{
     width:960px;
     margin:auto;
 }
-
+div#indexbody
+{
+    width:960px;
+    margin:auto;
+    text-align: center;
+}
 h1{
   box-sizing: border-box;
   ine-height: 160%;
