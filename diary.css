@@ -10,6 +10,7 @@ body {
     color: #000000;
 }
 header {
+   box-sizing: border-box;
    position: fixed;
    top: 0;
    width: 100%;
@@ -24,7 +25,6 @@ div#body{
 }
 
 h1{
-  width： 80%;
   ine-height: 160%;
   font-size: 160%;
   color: #e2ff3d;
