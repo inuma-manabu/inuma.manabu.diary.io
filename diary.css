@@ -126,6 +126,10 @@ color:#fc0d1c;
 .flowbtn10 .fa-line:hover{
 color:#00c300;
 }
+/* Acrobat Reader PDF マウスホバー時 */
+.flowbtn10 .fa-file-pdf:hover{
+color:#cf0000;
+}
 /* メールアイコンマウスホバー時 */
 .flowbtn10 .fa-envelope:hover{
 color:#f3981d;		
