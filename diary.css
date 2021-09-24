@@ -190,3 +190,5 @@ justify-content:space-between;
 flex:0 0 33%;
 text-align:center!important;
 }
+/* 画像の幅を表示画面幅に合わせる */
+.resizeimage img { width: 100%; }
